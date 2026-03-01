@@ -9,11 +9,14 @@ description = "Starter template for a Python RAG and vector database project."
 readme = "README.md"
 requires-python = ">=3.10"
 dependencies = [
+  "fastapi>=0.116.0",
+  "openai-whisper",
   "python-dotenv>=1.0.1",
   "pydantic>=2.10.0",
   "pyyaml>=6.0.2",
   "streamlit>=1.42.0",
-  "gradio>=5.18.0",
+  "uvicorn>=0.35.0",
+  "yt-dlp",
 ]
 
 [tool.setuptools]

@@ -1,3 +1,20 @@
+Metadata-Version: 2.4
+Name: graphlens
+Version: 0.1.0
+Summary: Starter template for a Python RAG and vector database project.
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: fastapi>=0.116.0
+Requires-Dist: openai-whisper
+Requires-Dist: python-dotenv>=1.0.1
+Requires-Dist: pydantic>=2.10.0
+Requires-Dist: pyyaml>=6.0.2
+Requires-Dist: streamlit>=1.42.0
+Requires-Dist: uvicorn>=0.35.0
+Requires-Dist: yt-dlp
+Dynamic: license-file
+
 # GraphLens
 
 Starter template for a Python-based data project with:
